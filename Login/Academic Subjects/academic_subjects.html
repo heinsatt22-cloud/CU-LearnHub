@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CU LearnHub</title>
+</head>
+<link rel="stylesheet" type="text/css" href="academic_subjects.css">
+
+<body>
+    <!--NAV Bar-->
+    <header>
+        <div class="container nav">
+            <img src="Logo.jpg" width="50px" style="border-radius:100px;">
+            <div class="logo">CU LearnHub</div>
+            <nav>
+                <a href="../Home/home.html">Home</a>
+                <a href="../Academic Subjects/academic_subjects.html">Academic Subjects</a>
+                <a href="../Digital Library/digital_library.html">Digital Library</a>
+                <a href="../Lecturer Information/lecturers.html">Lecturers</a>
+                <a href="../About/about.html">About</a>
+                <a href="../Contact/contact.html">Contact</a>
+            </nav>
+            <button class="nbtn"><a href="../Academic Subjects/academic_subjects.html" style="text-decoration: none; color: white;">Browse Subjects</a></button>
+        </div>
+    </header>
+
+    <section class="section1" id="subjects">
+        <div class="section1-content">
+            <h2>Academic Subjects</h2>
+            <p>Explore comprehensive resources for your computer science courses</p>
+        </div>
+        <div class="section1-grid">
+            <div class="card">
+                <div class="subjectcard">
+                    <div class="icon-box" style="background: #3b82f6;">&lt;/&gt;</div>
+
+                    <div style="padding-bottom: 25px; padding-left: 5px;">
+                        <h3>Programming</h3>
+                        <span style="font-size: 0.85rem; color: #3b82f6; font-weight: 500;">5+ resources</span>
+                    </div>
+
+                </div>
+                <p style="color:#3b4044; margin: 10px 0 20px;">
+                    Learn fundamental and advanced programming concepts with code examples,
+                    tutorials, and practical exercises.
+                </p>
+                <div class="sub-tags">
+                    <span>C Programming</span>
+                    <span>C++</span>
+                    <span>Java</span>
+                    <span>Python</span>
+                    <span>OOP</span>
+                </div>
+                <a href="../Digital Library/digital_library.html" class="view-resource">View Resources</a>
+            </div>
+
+
+            <div class="card">
+                <div class="subjectcard">
+                    <div class="icon-box" style="background:#a855f7;">∑</div>
+
+                    <div style="padding-bottom: 25px; padding-left: 5px;">
+                        <h3>Mathematics</h3>
+                        <span style="font-size: 0.85rem; color: #3b82f6; font-weight: 500;">5+ resources</span>
+                    </div>
+
+                </div>
+                <p style="color:#3b4044; margin: 10px 0 20px;">
+                    Master calculus, linear algebra, discrete mathematics,
+                    and other essential mathematical concepts for computer science.
+                </p>
+                <div class="sub-tags">
+                    <span>Calculus</span>
+                    <span>Linear Algebra</span>
+                    <span>Statistics</span>
+                    <span>Discrete Math</span>
+                </div>
+                <a href="../Digital Library/digital_library.html" class="view-resource">View Resources</a>
+            </div>
+
+
+            <div class="card">
+                <div class="subjectcard">
+                    <div class="icon-box" style="background: #10b981;">💻</div>
+
+                    <div style="padding-bottom: 25px; padding-left: 5px;">
+                        <h3>Computer Systems</h3>
+                        <span style="font-size: 0.85rem; color: #3b82f6; font-weight: 500;">5+ resources</span>
+                    </div>
+
+                </div>
+                <p style="color:#3b4044; margin: 10px 0 20px; padding-bottom: 19px">
+                    Understand computer architecture, operating systems,
+                    and how hardware and software interact.
+                </p>
+                <div class="sub-tags">
+                    <span>Architecture</span>
+                    <span>Operating Systems</span>
+                    <span>Assembly</span>
+                    <span>Hardware</span>
+                </div>
+                <a href="../Digital Library/digital_library.html" class="view-resource">View Resources</a>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="resource-container">
+        <section>
+            <div class="">
+                <div class="resource-title">
+                    <h2>Popular Resources</h2>
+                    <p>Most downloaded materials this month</p>
+                </div>
+
+                <div class="slider-container">
+                    <button class="slider-btn" onclick="scrollSlider(-1)">❮</button>
+
+                    <div class="track-slider" id="resourceSlider">
+                        <div class="resource-card">
+                            <div class="resource-icon blue-icon">📄</div>
+                            <div class="resource-info">
+                                <h4>Introduction to C Programming</h4>
+                                <div class="resource-meta">
+                                    <span class="resource-tag blue-tag">Programming</span>
+                                    <span class="resource-type">Textbook</span>
+                                </div>
+                                <div class="download-count">⬇ 5 downloads</div>
+                            </div>
+                        </div>
+
+                        <div class="resource-card">
+                            <div class="resource-icon purple-icon">📝</div>
+                            <div class="resource-info">
+                                <h4>Calculus I Lecture Notes</h4>
+                                <div class="resource-meta">
+                                    <span class="resource-tag purple-tag">Mathematics</span>
+                                    <span class="resource-type">Lecture Notes</span>
+                                </div>
+                                <div class="download-count">⬇ 5 downloads</div>
+                            </div>
+                        </div>
+
+                        <div class="resource-card">
+                            <div class="resource-icon orange-icon">📚</div>
+                            <div class="resource-info">
+                                <h4>Data Structures Handbook</h4>
+                                <div class="resource-meta">
+                                    <span class="resource-tag orange-tag">Data Structures</span>
+                                    <span class="resource-type">Reference</span>
+                                </div>
+                                <div class="download-count">⬇ 5 downloads</div>
+                            </div>
+                        </div>
+
+                        <div class="resource-card">
+                            <div class="resource-icon pink-icon">💡</div>
+                            <div class="resource-info">
+                                <h4>SQL Fundamentals</h4>
+                                <div class="resource-meta">
+                                    <span class="resource-tag pink-tag">Database</span>
+                                    <span class="resource-type">Tutorial</span>
+                                </div>
+                                <div class="download-count">⬇ 5 downloads</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="slider-btn" onclick="scrollSlider(1)">❯</button>
+
+                </div>
+
+                <div class="slider-footer">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="scrollProgress"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <section class="study">
+        <div class="study-content">
+            <span class="light-bulb">💡</span>
+            <h2>How to Use These Resources Effectively</h2>
+            <p>Maximize your learning with these proven study strategies</p>
+            <div class="study-list">
+                <div class="study-item">
+                    <span class="s-icon">📂</span>
+                    <div>
+                        <h5>Organize Your Materials</h5>
+                        <p>Create folders for each subject and organize materials by topic for easy access.</p>
+                    </div>
+                </div>
+
+                <div class="study-item">
+                    <span class="s-icon">📅</span>
+                    <div>
+                        <h5>Set Study Schedule</h5>
+                        <p>Plan regular study sessions and allocate time for each subject consistently.</p>
+                    </div>
+                </div>
+
+                <div class="study-item">
+                    <span class="s-icon">🖋️</span>
+                    <div>
+                        <h5>Take Active Notes</h5>
+                        <p>Summarize materials in your own words to improve understanding and retention.</p>
+                    </div>
+                </div>
+
+                <div class="study-item">
+                    <span class="s-icon">🔄</span>
+                    <div>
+                        <h5>Review Regularly</h5>
+                        <p>Revisit materials periodically to reinforce learning and identify gaps.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="study-image">
+            <img src="still-life-office-desk-mess.jpg" alt="study setup" width="500px"
+                style="border-radius: 18px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1 );">
+            <div class="success-badge">
+                <div class="badge-icon">🏆</div>
+                <div class="badge-text">
+                    <strong>85%</strong>
+                    <span>Success Rate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p><b>CU LearnHub</b></p>
+            <small style="color:#2d2b34;">© 2026. All rights reserved.</small>
+        </div>
+        <div style="display:flex; gap:20px; font-size:0.9rem; color:#2d2b34;">
+            <span>Privacy Policy</span>
+            <span>Terms of Service</span>
+        </div>
+    </footer>
+
+
+    <script>
+        const slider = document.getElementById('resourceSlider');
+        const progress = document.getElementById('scrollProgress');
+
+        // Button Scroll function
+        function scrollSlider(direction) {
+            const scrollAmount = 340; // Card width + gap
+            slider.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+        }
+
+        // Update Progress Bar on scroll
+        slider.addEventListener('scroll', () => {
+            const scrollPercentage = (slider.scrollLeft / (slider.scrollWidth - slider.clientWidth)) * 100;
+            progress.style.width = Math.max(25, scrollPercentage) + '%';
+        });
+    </script>
+
+</body>
+
+</html>
